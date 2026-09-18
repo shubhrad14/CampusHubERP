@@ -1,0 +1,12 @@
+====================================
+         COURSE REPORT
+====================================
+
+Course Code: CS101
+Course Name: Python Programming
+Credits: 4
+------------------------------------
+Course Code: CS102
+Course Name: Database Management
+Credits: 3
+------------------------------------

@@ -1,0 +1,16 @@
+====================================
+         STUDENT REPORT
+====================================
+
+Student ID: ST001
+Name: Shubhra
+Age: 21
+Email: shubhra@gmail.com
+Department: Information Technology
+------------------------------------
+Student ID: ST002
+Name: Rahul
+Age: 22
+Email: rahul@gmail.com
+Department: Computer Science
+------------------------------------

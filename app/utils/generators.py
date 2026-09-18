@@ -8,21 +8,17 @@ def id_generator(prefix):
 
     return generate_id
 
-if __name__ == "__main__":
+def student_report(students):
+    for student in students:
+        yield student
 
-    student_id_generator = id_generator("ST")
-    faculty_id_generator = id_generator("FC")
-    course_id_generator = id_generator("CS")
 
-    print("Student IDs:")
-    print(student_id_generator())
-    print(student_id_generator())
-    print(student_id_generator())
+def faculty_report(faculty_members):
+    for faculty in faculty_members:
+        yield faculty
 
-    print("\nFaculty IDs:")
-    print(faculty_id_generator())
-    print(faculty_id_generator())
 
-    print("\nCourse IDs:")
-    print(course_id_generator())
-    print(course_id_generator())
+def course_report(courses):
+    for course in courses:
+        yield course
+

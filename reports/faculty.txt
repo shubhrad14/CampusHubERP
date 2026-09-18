@@ -1,0 +1,10 @@
+====================================
+         FACULTY REPORT
+====================================
+
+Faculty ID: FC001
+Name: Dr. Mehta
+Age: 45
+Email: mehta@college.edu
+Department: Information Technology
+------------------------------------
