@@ -116,9 +116,8 @@ def sort_students_by_name():
             student.department
         )
 
-display_names_uppercase()
-
-filter_by_department("Information Technology")
-
-sort_students_by_name()
+if __name__ == "__main__":
+    display_names_uppercase()
+    filter_by_department("Information Technology")
+    sort_students_by_name()
 

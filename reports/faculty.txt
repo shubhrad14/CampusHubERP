@@ -8,3 +8,9 @@ Age: 45
 Email: mehta@college.edu
 Department: Information Technology
 ------------------------------------
+Faculty ID: FC002
+Name: Dr. Sharma
+Age: 42
+Email: sharma@college.edu
+Department: Computer Science
+------------------------------------

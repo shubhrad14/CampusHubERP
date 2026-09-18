@@ -2,6 +2,19 @@ from app.models.student import Student
 from app.models.faculty import Faculty
 from app.models.course import Course
 
+from app.services.enrollment_service import (
+    enroll_student,
+    list_enrollments
+)
+
+from app.services.threading_service import (
+    generate_reports_concurrently
+)
+
+from app.services.multiprocessing_service import (
+    run_statistics
+)
+
 from app.services.student_service import (
     add_student,
     update_student,
@@ -118,6 +131,30 @@ def main():
     display_course_names_uppercase()
 
     sort_courses_by_name()
+
+        # ---------------- ENROLLMENTS ----------------
+
+    enrollment1 = enroll_student(student1, course1)
+    enrollment2 = enroll_student(student2, course2)
+
+    list_enrollments()
+
+    # ---------------- THREADING ----------------
+
+    generate_reports_concurrently(
+        [student1, student2],
+        [faculty1, faculty2],
+        [course1, course2]
+    )
+
+    # ---------------- MULTIPROCESSING ----------------
+
+    run_statistics(
+        [student1, student2],
+        [faculty1, faculty2],
+        [course1, course2],
+        [enrollment1, enrollment2]
+    )
 
 
 if __name__ == "__main__":

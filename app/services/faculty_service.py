@@ -121,8 +121,7 @@ def sort_faculty_by_name():
             faculty.department
         )
 
-display_names_uppercase()
-
-filter_by_department("Information Technology")
-
-sort_faculty_by_name()
+if __name__ == "__main__":
+    display_names_uppercase()
+    filter_by_department("Information Technology")
+    sort_faculty_by_name()

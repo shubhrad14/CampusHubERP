@@ -86,6 +86,6 @@ def sort_courses_by_name():
             course.credits
         )
 
-display_course_names_uppercase()
-
-sort_courses_by_name()
+if __name__ == "__main__":
+    display_course_names_uppercase()
+    sort_courses_by_name()
